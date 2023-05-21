@@ -9,5 +9,5 @@ image.close()
 photo = ImageTk.PhotoImage(data=raw_image)
 label = tk.Label(image=photo)
 label.pack()
-
+# mainloop for tiknter
 root.mainloop()
