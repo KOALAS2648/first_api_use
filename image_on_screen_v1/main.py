@@ -1,6 +1,6 @@
 import pygame as pg; pg.init()
 import sys
-from first_api_use.get_image import status_code, image
+from get_image import status_code, image
 # creates the screen
 WINH, WINW = 800, 800
 screen = pg.display.set_mode((WINW,WINH))
